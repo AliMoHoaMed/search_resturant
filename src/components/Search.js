@@ -46,11 +46,11 @@ return (
 
    <>
 
-
+<body style={{background: 'rgb(18, 112, 155)'}}> 
    
    <div className='container d-flex justify-content-between align-item-center'> 
 <img src='881137-200.png' style={{ width: "8rem", position: "relative", left: "2%", cursor: "pointer" }} alt=''/> 
-<h2 style={{color: "#1b1464", cursor: "pointer"}} > Stitch Favorute Resturant  </h2>
+<h2 style={{color: "white", cursor: "pointer"}} > Stitch Favorute Resturant  </h2>
    </div>
    
    <Form className='d-flex justify-content-center align-items-center mt-3'>
@@ -68,14 +68,14 @@ return (
 
 <section className='item_section mt-4 container'> 
 
-    <h2 className='px-4' style={{ fontWeight: 400 }}> You Will Find All What You Need Here      </h2>
+    <h2 className='px-4' style={{ fontWeight: 400 , color:'white' }}> You Will Find All What You Need Here      </h2>
  <div className="row mt-2 d-flex justify-content-around align-items-center"> 
 
 {copydata && copydata.length ?<Cards  data={copydata} /> :'loading .... ' }
 
  </div>
 </section>
-
+</body>
 
    </>
   
