@@ -23,7 +23,7 @@ return (
         <h5 style={{color:'white'}}> {element.address}  </h5>
         <span style={{color:'white'}}>{element.price}   </span>
           </div>
-<div className='extra' ></div>
+<div className='extra' > hiii</div>
 
 <div className='last_data d-flex justify-content-between align-items-center'> 
 
